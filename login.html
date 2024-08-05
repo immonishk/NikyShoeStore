@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login - Niky Shoe Store</title>
+        <style>
+            body {
+                font-family: "Helvetica Now Text Medium", Helvetica, Arial,
+                    sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+                background: url("https://cms.landor.com/media/n3ml5nd1/landor_nikekids_visual_14_2500x1667px.jpg")
+                    no-repeat center center/cover;
+            }
+            header {
+                background-color: black;
+                color: white;
+                padding: 10px 0;
+                text-align: center;
+            }
+            header nav a {
+                color: white;
+                margin: 0 15px;
+                text-decoration: none;
+            }
+            header nav a:hover {
+                text-decoration: underline;
+            }
+            .hero {
+                background: url("") no-repeat center center/cover;
+                height: 30px;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+            }
+            .hero h1 {
+                font-size: 48px;
+                margin: 0;
+            }
+            .login-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 90vh;
+            }
+            .login-box {
+                background-color: white;
+                padding: 40px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                border-radius: 8px;
+                max-width: 400px;
+                width: 100%;
+                text-align: center;
+            }
+            .login-box h2 {
+                margin-bottom: 20px;
+            }
+            .login-box input[type="text"],
+            .login-box input[type="password"] {
+                width: calc(100% - 20px);
+                padding: 10px;
+                margin: 10px 0;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+            .login-box button {
+                background-color: blue;
+                color: white;
+                border: none;
+                padding: 15px;
+                width: 100%;
+                font-size: 16px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            .login-box button:hover {
+                background-color: darkblue;
+            }
+            .login-box a {
+                display: block;
+                margin-top: 15px;
+                color: blue;
+                text-decoration: none;
+            }
+            .login-box a:hover {
+                text-decoration: underline;
+            }
+            .footer {
+                background-color: black;
+                color: white;
+                padding: 20px;
+                text-align: center;
+            }
+            .footer a {
+                color: white;
+                margin: 0 10px;
+                text-decoration: none;
+            }
+            .footer a:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="men.html">Men</a>
+                <a href="women.html">Women</a>
+                <a href="kids.html">Kids</a>
+                <a href="about.html">About Us</a>
+                <a href="login.html">Login</a>
+            </nav>
+        </header>
+
+        <div class="hero">
+            <h1></h1>
+        </div>
+
+        <div class="login-container">
+            <div class="login-box">
+                <h2>Login to Your Account</h2>
+                <form>
+                    <input type="text" placeholder="Email" required />
+                    <input type="password" placeholder="Password" required />
+                    <button type="submit">Login</button>
+                </form>
+                <a href="#">Forgot Password?</a>
+                <a href="#">Create an Account</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div>
+                <a href="#">FAQ</a>
+                <a href="#">Shipping & Returns</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </body>
+</html>

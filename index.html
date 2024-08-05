@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Niky Shoe Store</title>
+    <style>
+        body {
+            font-family:"Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: black;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        header nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background: url('https://www.ourdailydose.net/media/odd-images/web_banner_NIKE_DUNK_LOW_racer_blue.jpg') no-repeat center center/cover;
+            height: 500px;
+            color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .hero button {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .section h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .mainproducts {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .mainproducts img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .cta-button {
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .footer {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="men.html">Men</a>
+            <a href="women.html">Women</a>
+            <a href="kids.html">Kids</a>
+            <a href="about.html">About Us</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+    </div>
+
+    <div class="section">
+        <h2>Men's Collection</h2>
+        <div class="mainproducts">
+            <img src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/4f2924bb-df73-41c4-bf37-a55bec71eaac/custom-nike-dunk-high-by-you-shoes.png" alt="Niky Dunk">
+            <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a12a1e20-18d2-480e-bb30-85a4c213a161/air-force-1-07-lv8-shoes-RR3nh3.png" alt="Niky Air Force">
+            <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/47fa7cc0-ef2b-4431-b8b4-d44fdab39e72/air-max-plus-drift-shoes-FCM3Rg.png" alt="Niky Air Max">
+            <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/040aa3c3-8b6d-4812-91ab-e9e106cddeef/blazer-mid-77-vintage-shoes-dNWPTj.png" alt="Niky Blazer">
+            
+    </div>
+        <div>
+            <button class="cta-button" onclick="window.location.href='men.html'">Shop Men's Collection</button>
+    </div>
+
+    <div class="section">
+        <h2>Women's Collection</h2>
+        <div class="mainproducts">
+            <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/21506e19-770e-4221-94c8-51dc0ff1e47d/dunk-low-lx-shoes-ww4BWc.png" alt="Niky Nike Dunk Low">
+            <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c4daf111-6991-4d20-8944-e0f189b473b3/tc-7900-shoes-M6plHb.png" alt="Niky TC">
+            <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2e26cd53-b90d-4e06-bc0f-15fea66ac896/air-max-dn-se-shoes-vhS1Sm.png" alt="Niky Air Max">
+            <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c6270c91-74f3-4e7f-ac65-a59012c76730/motiva-walking-shoes-dCcsVX.png" alt="Niky Motiva">
+            
+    </div>
+        <div>
+            <button class="cta-button" onclick="window.location.href='women.html'">Shop Women's Collection</button>
+    </div>
+
+
+    <div class="section">
+        <h2>Kid's Collection</h2>
+        <div class="mainproducts">
+            <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/56662cbb-b095-48b0-b155-2e9f210e122f/air-max-systm-shoes-x3Bgkf.png" alt="Niky Air Max">
+            <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4e19da71-f1a9-48f4-a100-d9390d05e563/blazer-mid-77-shoes-xfpQWg.png" alt="Niky Blazer">
+            <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8fe34474-3c41-484a-a142-448cfc9a0389/force-1-low-easyon-shoes-kGpRmV.png" alt="Niky Air Force">
+            <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/34f1f0d1-d655-4bb9-b764-030128d83379/dunk-low-se-younger-shoes-q122bQ.png" alt="Niky Dunk">
+            
+    </div>
+        <div>
+            <button class="cta-button" onclick="window.location.href='kids.html'">Shop Kids' Collection</button>
+    </div>
+    
+    <div class="section">
+        <h2>Promotions and Deals</h2>
+        <p>Check out our latest sales and discounts!</p>
+    </div>
+    
+    <div class="footer">
+        <div>
+            <a href="#">FAQ</a>
+            <a href="#">Shipping & Returns</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+    </div>
+</body>
+</html>
